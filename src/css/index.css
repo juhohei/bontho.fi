@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+main {
+  margin: 100px auto;
+  width: 720px;
+  max-width: 90%;
+}
+
+.input {
+  margin: 10px 0;
+  display: table;
+  width: 100%;
+}
+
+.input span {
+  display: table-cell;
+  width: 20%;
+  text-align: right;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.input input,
+.input textarea {
+  display: table-cell;
+  padding: 2px;
+  width: 80%;
+  border: 1px solid #999;
+  border-radius: 2px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+}
+
+#vlnthl {
+  margin: 40px auto;
+  width: 420px;
+  max-width: 90%;
+}
+
+p {
+  margin: 10px 0;
+}
+
+article {
+  padding: 10px;
+}
+
+article:nth-child(even) {
+  background: #f0f0f0;
+}
+

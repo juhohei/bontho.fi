@@ -1,0 +1,36 @@
+{
+  "name": "bontho.fi",
+  "version": "0.0.1",
+  "description": "bonto kalvela",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 👮🏽"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhohei/bontho.fi.git"
+  },
+  "keywords": [
+    "kalja",
+    "olut",
+    "bisse",
+    "bönthö",
+    "oispa",
+    "kaljaa",
+    "karhu",
+    "kahru",
+    "iii"
+  ],
+  "author": "Minö",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juhohei/bontho.fi/issues"
+  },
+  "homepage": "https://github.com/juhohei/bontho.fi#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.15.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
