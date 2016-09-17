@@ -27,7 +27,7 @@ function createServer () {
       setHeaders: function (res) {
         res.set({
           'X-Powered-By': 'kahru iii',
-          'Content-Length': 'toupillisen veran 😎'
+          'Content-Length': 'toupillisen veran'
         })
     }
   }))
