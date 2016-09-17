@@ -9,7 +9,7 @@ var DATA = 'data/stories.json'
 var PORT = process.env.NODE_ENV === 'production' ? 80 : 3333
 
 var saveToDb = debounce(
-  function () { fs.writeFile(DATA, JSON.stringify(data)) },
+  function (data) { fs.writeFile(DATA, JSON.stringify(data)) },
   500
 )
 
