@@ -4,7 +4,10 @@
   "description": "bonto kalvela",
   "main": "index.js",
   "scripts": {
-    "test": "echo 👮🏽"
+    "test": "echo 👮🏽",
+    "start": "node index.js",
+    "start:prod": "sudo NODE_ENV=production node index.js",
+    "build": "make"
   },
   "repository": {
     "type": "git",
