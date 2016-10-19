@@ -69,3 +69,7 @@ article:nth-child(even) {
   background: #f0f0f0;
 }
 
+img, iframe {
+  width: 100%;
+  height: auto;
+}
